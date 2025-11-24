@@ -23,7 +23,7 @@ Proyek ini merupakan tugas ke-9 matakuliah pemrograman web 1
 1. Clone repositori:  
    ```bash
    git clone https://github.com/radjikinseptiawan/Lab9Web.git
-````
+    ```
 
 2. Masuk ke direktori proyek:
 

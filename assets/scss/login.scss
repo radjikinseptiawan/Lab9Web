@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #8c6806;
+    padding: 1em;
+    display: flex;
+    width: 66.6em;
+    gap: 1em;
+    font-size: 1.4em;
+    
+    a{
+        text-decoration: none;
+        font-weight: 600;
+        color: #d5be7d;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
+
+// Variabel SCSS (Opsional, tapi membuat tema lebih mudah diubah)
+$primary-color: #5cb85c; // Warna Hijau untuk tombol
+$secondary-color: #4cae4c; // Warna Hover tombol
+$background-color: #f4f4f4; // Latar belakang halaman
+$container-bg: #fff; // Latar belakang kotak login
+$text-color: #333;
+$border-color: #ccc;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: $background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+

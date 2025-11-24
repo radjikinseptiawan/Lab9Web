@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #8c6806;
+  padding: 1em;
+  display: flex;
+  width: 66.6em;
+  gap: 1em;
+  font-size: 1.4em;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #d5be7d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=login.css.map */

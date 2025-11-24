@@ -1,0 +1,50 @@
+#container-menu {
+  margin: 5em 5em;
+}
+#container-menu button {
+  border: none;
+  background-color: #8c0606;
+  padding: 0.8em;
+  font-weight: 600;
+  border-radius: 10px;
+  color: white;
+}
+#container-menu button:hover {
+  cursor: pointer;
+  color: #8c0606;
+  background-color: #8f3636;
+}
+
+.table-container {
+  border: solid 1px #000000;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 2em 5em 1em 5em;
+  overflow-x: auto;
+}
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.table-container th, .table-container td {
+  border: 1px solid #dddddd;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 0.95em;
+}
+.table-container th {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.table-container tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.table-container tr:hover {
+  background-color: #f1f1f1;
+}
+
+/*# sourceMappingURL=dashboard.css.map */

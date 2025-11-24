@@ -1,0 +1,54 @@
+.login-container {
+    background-color: $container-bg;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+
+    h2 {
+        margin-bottom: 30px;
+        color: $text-color;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        text-align: left;
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        // Nesting untuk input teks dan password
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid $border-color;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    }
+
+    .login-btn {
+        width: 100%;
+        padding: 12px;
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+
+        // Nesting untuk efek hover
+        &:hover {
+            background-color: $secondary-color;
+        }
+    }
+}

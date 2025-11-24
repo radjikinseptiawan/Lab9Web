@@ -54,24 +54,6 @@ Proyek ini merupakan tugas ke-9 matakuliah pemrograman web 1
 
 ---
 
-## Cara Penggunaan
-
-* Buka browser dan akses `http://localhost:8000` (atau port sesuai).
-* Halaman awal akan menampilkan … *(misalnya halaman “Index.php” dengan modul layout)*.
-* Fitur utama:
-
-  * Modul input data
-  * Modul tampilan daftar
-  * Navigasi antar layout
-  * Styling responsif menggunakan SCSS
-* Jika ingin menambahkan modul baru:
-
-  * Buat file di folder `modules/`
-  * Import layout di folder `layouts/`
-  * Tambahkan routing atau include di `index.php`
-
----
-
 ## Struktur Folder
 
 ```
@@ -98,4 +80,3 @@ MIT © Radjikin Septiawan
 * Nama: Radjikin Septiawan
 * Email: *(tambahkan jika diizinkan)*
 * GitHub: [https://github.com/radjikinseptiawan](https://github.com/radjikinseptiawan)
-```
